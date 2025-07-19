@@ -16,6 +16,8 @@
 
 .block4 {
     word-spacing: 30px;
+    text-decoration: overline;
+    text-decoration-style: wavy;
 }
 
 .block5 {
