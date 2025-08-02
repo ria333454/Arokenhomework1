@@ -1,0 +1,16 @@
+.block1 {
+    background-color: #efbae3;
+    height: 500px;
+    overflow: scroll;
+}
+
+.ggg {
+    background-color: #e47cd4;
+    height: 250px;
+    width: 250px;
+    padding: 30px;
+    margin: 20px 10px 1px;
+    border-radius: 30px;
+    box-shadow: inset 1px 1px 30px 1px rgb(161, 55, 154);
+    display: inline-block;
+}
