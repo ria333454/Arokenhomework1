@@ -19,7 +19,7 @@ body {
     content: '';
     display: block;
     position: absolute;
-    right: 173px;
+    right: 210px;
     transform: scale(0.8);
     background-color: tomato;
     height: 100px;
@@ -34,7 +34,7 @@ body {
     content: '';
     display: block;
     position: absolute;
-    left: 173px;
+    left: 210px;
     transform: scale(0.8);
     background-color: rgb(13, 0, 255);
     height: 100px;
@@ -43,4 +43,5 @@ body {
     border-style: solid;
     border-width: 7px;
     border-color: #ffffff;
+
 }
