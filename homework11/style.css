@@ -1,0 +1,46 @@
+body {
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    background-color: #ffffff;
+    height: 30px;
+    width: 10px;
+    margin-top: 364px;
+}
+
+.block {
+    transition-duration: 5s;
+}
+
+.block {
+    transition-timing-function: ease;
+}
+
+.block:hover {
+    width: 250px;
+}
+
+.square {
+    background-color: #343434;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+    color: #343434;
+}
+
+.square {
+    transition-duration: 5s;
+}
+
+.square:hover {
+    color: #12950b;
+
+}
