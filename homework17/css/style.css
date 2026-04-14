@@ -1,0 +1,81 @@
+html {
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(142, 138, 0);
+    font-weight: 1000;
+}
+
+/* _____________________________________________________ */
+.hero-banner {
+    display: flex;
+}
+
+.banner {
+    flex-grow: 1;
+}
+
+.banner {
+    height: 1300px;
+
+}
+
+/* ___________________________________________ */
+
+.button {
+    margin-top: 110px;
+    display: inline-block;
+    padding: 30px 35px;
+    background: rgb(188, 47, 22);
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 50px;
+    margin-bottom: 190px;
+}
