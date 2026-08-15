@@ -1,0 +1,138 @@
+.footer {
+    background: var(--main-bg-color);
+    padding: 140px 0 82px;
+}
+
+.footer__top {
+    display: grid;
+    grid-template-columns: 2fr repeat(4, 1fr);
+    gap: 118px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer__logo {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.footer__brand p {
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.socials {
+    display: flex;
+    gap: 12px;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__column h4 {
+    margin-bottom: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 113%;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.footer__column a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 119%;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer__bottom {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__bottom span {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.payments {
+    display: flex;
+    gap: 12px;
+}
+
+@media (max-width: 1100px) {
+    .footer__top {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px 76px;
+        padding-bottom: 40px;
+    }
+
+    .footer__brand {
+        grid-column: 1 / -1;
+    }
+
+    .footer__logo {
+        margin-bottom: 14px;
+    }
+
+    .footer-logo__img {
+        width: 144px;
+        height: auto;
+    }
+
+    .footer__brand p {
+        max-width: 352px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 143%;
+    }
+
+    .socials {
+        gap: 12px;
+    }
+
+    .footer__column {
+        gap: 16px;
+    }
+
+    .footer__column h4 {
+        margin-bottom: 4px;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.18em;
+    }
+
+    .footer__column a {
+        font-size: 14px;
+        line-height: 120%;
+    }
+
+    .footer__bottom {
+        padding-top: 16px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .footer__bottom span {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .payments {
+        justify-content: center;
+        gap: 10px;
+    }
+}

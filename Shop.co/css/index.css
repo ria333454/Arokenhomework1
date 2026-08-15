@@ -1,0 +1,20 @@
+/* base */
+@import "../css/base/fonts.css";
+@import "../css/base/globals.css";
+@import "../css/base/normalize.css";
+@import "../css/base/vars.css";
+
+/* blocks */
+@import "../css/blocks/top-banner.css";
+@import "../css/blocks/header.css";
+@import "./blocks/burger.css";
+@import "./blocks/menu.css";
+@import "../css/blocks/hero.css";
+@import "../css/blocks/brands.css";
+@import "../css/blocks/new-products.css";
+@import "../css/blocks/leaders-products.css";
+@import "../css/blocks/your-style.css";
+@import "./blocks/slider.css";
+@import "../css/blocks/subscribe.css";
+@import "./blocks/footer.css";
+@import "../js/index.js";

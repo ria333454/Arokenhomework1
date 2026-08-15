@@ -1,0 +1,25 @@
+:root {
+    /* fonts */
+    --font-family: "Satoshi", sans-serif;
+    --second-family: "Integral CF Heavy", sans-serif;
+    --third-family: "Integral CF", sans-serif;
+    --font3: "Inter", sans-serif;
+
+    /* container */
+    --container-width: 1240px;
+    --container-padding: 20px;
+
+    /* colors */
+    --main-color: #000;
+    --main-secondary-color: #fff;
+    --main-bg-color: #f0f0f0;
+    --card-bg-color: #f0eeed;
+    --color-price-old: rgba(0, 0, 0, 0.4);
+    --badge-discount-bg: rgba(255, 51, 51, 0.1);
+    --badge-discount-color: #f33;
+    --btn-border-color: rgba(0, 0, 0, 0.1);
+    --btn-hover-bg: #f7f7f7;
+    --hero-bg: #F2F0F1;
+    --stat-bg: rgba(0, 0, 0, 0.1);
+    --text-color: rgba(0, 0, 0, 0.6);
+}
